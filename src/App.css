@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.logo{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 35%;
+}
+
+.cardOne{
+  background-color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
