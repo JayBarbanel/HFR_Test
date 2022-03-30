@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Logo from './components/LogoHeader'
+import { BrowserRouter as Router} from 'react-router-dom';
+import LogoHeader from './components/LogoHeader';
 
 function App() {
   return (
     <Router>
-      <h1>Hello World </h1>
+      <Logo/>
     </Router>
   );
 }
