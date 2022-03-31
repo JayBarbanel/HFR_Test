@@ -4,14 +4,16 @@ import {
     CardGroup, 
     Card, 
 }from "react-bootstrap"
+import LAFD from "../images/lafd.png"
+import LAPD from "../images/lapd.webp"
 
 
 
 function Header(){
     return (
-<CardGroup>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+<CardGroup style={{display: 'flex', flexDirection: 'row'}}>
+  <Card style={{flex: 1}}>
+    <Card.Img variant="top" src={LAFD} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -23,21 +25,20 @@ function Header(){
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-  <Card>
+  <Card style={{flex: 1}}>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        You take care of emergencies, we take care of yours{' '}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+  <Card style={{flex: 1}}>
+    <Card.Img variant="top" className="lapd" src={LAPD} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>

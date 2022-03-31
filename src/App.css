@@ -11,6 +11,11 @@
   width: 35%;
 }
 
+.lapd{
+  height: 220px!important;
+  margin-left: 50%;
+}
+
 .cardOne{
   background-color: white;
 }
