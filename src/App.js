@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Logo from './components/LogoHeader'
+import Head from './components/Header'
 import { BrowserRouter as Router} from 'react-router-dom';
-import LogoHeader from './components/LogoHeader';
+
 
 function App() {
   return (
     <Router>
+      <Head/>
       <Logo/>
     </Router>
   );
