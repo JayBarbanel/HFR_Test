@@ -11,6 +11,13 @@
   width: 35%;
 }
 
+.about{
+  color: goldenrod;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 20%;
+}
+
 .weTake{
   color: goldenrod;
   text-align: center;
@@ -28,7 +35,7 @@
 }
 
 .cardTwo{
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: none;
