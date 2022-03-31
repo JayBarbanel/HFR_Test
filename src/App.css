@@ -27,3 +27,22 @@
   background-color: white;
 }
 
+.cardTwo{
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title{
+  color: goldenrod;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+.bodytxt{
+  color: goldenrod;
+  text-align: center;
+  font-size: 30px;
+}
+
