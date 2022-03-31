@@ -2,6 +2,7 @@
 import './App.css';
 import Logo from './components/LogoHeader'
 import Head from './components/Header'
+import Honest from './components/Honesty'
 import { BrowserRouter as Router} from 'react-router-dom';
 
 
@@ -10,6 +11,7 @@ function App() {
     <Router>
       <Head/>
       <Logo/>
+      <Honest/>
     </Router>
   );
 }
