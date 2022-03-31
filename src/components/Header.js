@@ -18,7 +18,7 @@ function Header(){
   <Card style={{flex: 1}}>
     <Card.Body>
       <Card.Text className="weTake">
-        You take care of emergencies...<br/> We take care of yours.{' '}
+        You take care of emergencies.<br/> We take care of yours.{' '}
       </Card.Text>
     </Card.Body>
   </Card>
