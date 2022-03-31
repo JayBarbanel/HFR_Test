@@ -11,6 +11,13 @@
   width: 35%;
 }
 
+.weTake{
+  color: goldenrod;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10%;
+}
+
 .lapd{
   height: 220px!important;
   margin-left: 50%;
