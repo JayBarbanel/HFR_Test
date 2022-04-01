@@ -35,6 +35,8 @@
   background-color: white;
 }
 
+
+
 .cardTwo{
   margin-top: 10%;
   margin-left: 10%;
@@ -64,4 +66,13 @@
 .larow{
   width: 80%;
   margin-left: 20%;
+}
+
+.insurance{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 55%;
 }

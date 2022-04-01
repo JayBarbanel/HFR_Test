@@ -6,7 +6,7 @@ import '../App.css';
 function Insurance() {
   return (
     <Card className="cardOne">
-      <Card.Img className="logo" variant="top" src={insurance} />
+      <Card.Img className="insurance" variant="top" src={insurance} />
     </Card>
   );
 }
