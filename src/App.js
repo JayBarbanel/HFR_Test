@@ -6,6 +6,8 @@ import Honest from './components/Honesty'
 import Attention from './components/Attention'
 import About from './components/About'
 import Transparent from './components/Transsparent'
+import Partners from './components/Partners'
+
 import { BrowserRouter as Router} from 'react-router-dom';
 
 
@@ -18,6 +20,7 @@ function App() {
       <Honest/>
       <Attention/>
       <Transparent/>
+      <Partners/>
     </Router>
   );
 }
