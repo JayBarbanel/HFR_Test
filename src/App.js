@@ -7,6 +7,7 @@ import Attention from './components/Attention'
 import About from './components/About'
 import Transparent from './components/Transparent'
 import Partners from './components/Partners'
+import Insurance from './components/Insurance'
 
 import { BrowserRouter as Router} from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
       <Attention/>
       <Transparent/>
       <Partners/>
+      <Insurance/>
     </Router>
   );
 }
