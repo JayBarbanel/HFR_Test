@@ -20,9 +20,7 @@ function Transparent (){
       By understanding and fully knowing the unique lifestyles of first responders and their families, we are able to provide you with the coverage you need in a transparent manner. We will ensure you have a great policy at the best possible rate.  
       </Card.Text>
     </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
+
   </Card>
  
 </CardGroup>
