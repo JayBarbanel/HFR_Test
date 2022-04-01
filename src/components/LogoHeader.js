@@ -7,9 +7,6 @@ function LogoHeader() {
   return (
     <Card className="cardOne">
       <Card.Img className="logo" variant="top" src={logo} />
-      <Card.Body>
-     
-      </Card.Body>
     </Card>
   );
 }
